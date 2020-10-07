@@ -1,0 +1,147 @@
+#template_one .header {
+    display: flex;
+    padding-top: 80px;
+    min-height: 100vh;
+    background: url(https://images.pexels.com/photos/2941098/pexels-photo-2941098.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#template_one .header .container {
+    display: flex;
+    align-items: center;
+}
+
+#template_one .header .row {
+    align-items: flex-start;
+    padding: 0 10%;
+}
+
+#template_one .header .row .col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+#template_one .header .row .col h1,
+#template_one .header .row .col p {
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+
+#template_one .header .row .col li {
+    font-size: 1.25rem;
+    font-family: Averta Std Light;
+    line-height: 2;
+    color: #fff;
+}
+
+#template_one .header .container .row img {
+    max-width: 50%;
+}
+
+#template_one h1 {
+    margin: 0 !important;
+    padding: 2rem 0;
+}
+
+#template_one .segment {
+    display: flex;
+    border-top: 1px solid gray;
+    padding: 1.5rem 0;
+}
+
+#template_one .segment h1 {
+    font-size: 2rem;
+}
+
+#template_one #features .row {
+    width: 100%;
+    padding: 0;
+}
+
+#template_one #features .container {
+    flex-direction: column;
+}
+
+#template_one #features .row .features_content{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+#template_one #column_icons #features .container .row:last-child {
+    flex-direction: column;
+}
+
+#template_one #column_icons #features {
+    color: #fff;
+}
+
+#template_one #column_icons #features .features_content {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+#template_one #column_icons #features p {
+    display: none;
+}
+
+#template_one #column_icons #features .my-icon .fa-primary {
+    fill: #fff;
+}
+
+#template_one .uploader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#template_one .uploader h1 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+#template_one .uploader h2 {
+    padding-bottom: 2rem;
+}
+
+input[type="file"]#myFile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+label[for="myFile"] {
+    font-size: 1.5rem;
+    color: #141414;
+    background-color: lightgray;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 10rem 0;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    width: 100%;
+    font-family: 'Averta Std Semibold';
+}
+
+#nine label[for="myFile"] {
+    width: 50%;
+}
+
+#seven {
+    color: #fff;
+}
+
+#seven .img-block {
+    color: #141414;
+}

@@ -1,0 +1,17 @@
+#events #header {
+    background: url(https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* #events {
+    display: flex;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+#events .container .row {
+    justify-content: center;
+    padding: 0 10%;
+}
+ */

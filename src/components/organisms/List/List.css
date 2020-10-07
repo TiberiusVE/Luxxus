@@ -1,0 +1,93 @@
+.list {
+    display: flex;
+    margin-top: 3.5rem;
+    width: 100%;
+}
+
+.list ul {
+    width: 48.5%;
+    margin: 0px 12% 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.list ul li a {
+    position: relative;
+    display: inline-block;
+    font-family: 'Averta Std Semibold';
+    font-size: 14px;
+    width: 100%;
+    color: #fff;
+    padding: 1.5rem 1.5rem 1.5rem .5rem;
+    border-bottom: 2px solid #272626ee;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.featurette .list ul li a {
+    padding: 1.5rem 0 1.5rem .5rem;
+}
+
+.list ul li a:hover {
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.featurette .list ul li a:hover {
+    background: transparent;
+    cursor: inherit;
+}
+
+.list ul li a:hover span {
+    display: inline-block;
+    color: #e0960e;
+    transform: translateX(5%);
+    transition: 0.3s;
+}
+
+.featurette .list ul li a:hover span {
+    transform: none;
+    color: #fff;
+}
+
+.list ul li a:after {
+    opacity: 1;
+    content: '\2713';
+    top: 40%;
+    right: 5px;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+}
+
+.feature .list ul li a:hover:after {
+    color: #e0960e;
+    right: 17.5px;
+}
+
+/* Mobile Displaying */
+
+@media (max-width:767px){
+
+    .list {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+
+    .list ul {
+        width: 100%;
+        margin: 0;
+    }
+
+    .list ul li a {
+        padding: 1.5rem 0;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,43 @@
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#home .description p,
+#cloud_builder .description p,
+#dev_sec_ops .description p,
+#container_vms .description p,
+#real_time .description p,
+#covid .description p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+#home .slide_container .description p {
+    text-align: left;
+}
+
+/* Mobile Displaying */
+
+@media (max-width: 1024px) {
+
+    .description {
+        padding: 4.5rem 3.5rem !important;
+        line-height: 1.5;
+        text-align: center;
+    }
+    
+    .description h1,
+    #flow .description h1 {
+        font-size: 1.85rem;
+    }
+
+    .description p {
+        font-size: 1.15rem;
+        margin: 1.5rem 0 0 0;
+    }
+}
+

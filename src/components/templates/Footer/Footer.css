@@ -1,0 +1,115 @@
+#footer {
+    background: #141414;
+    padding: 5% 0 0 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-top: 1px solid #272626ee;
+}
+
+#footer .container > .row {
+    justify-content: space-around;
+    padding: 0 10%;
+}
+
+#footer .container .row .col_parent:first-child {
+    width: 30%;
+    align-self: flex-start;
+}
+
+#footer .container .row .col_parent:last-child {
+    width: 70%;
+}
+
+#footer .container .row .col_parent .row {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#footer .container .row .col_parent .row:nth-child(2){
+    padding: 1.5rem 0;
+    /* border-bottom: 1px solid #232323; */
+}
+
+#footer .container .row .col_parent .row:nth-child(3){
+    text-transform: uppercase;
+    padding: 1.5rem 0;
+}
+
+#footer .container .row .col_parent .row:nth-child(3) a,
+#footer .container .row .col_parent .row:nth-child(3) span {
+    font-size: .7rem;
+    font-family: 'Averta Std Light';
+    color: #fff;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+#footer .container .row .col_parent .row:nth-child(3) a {
+    margin-right: 2.5rem;
+}
+
+#footer .container .row .col_child {
+    width: 50%;
+}
+
+#footer .container .row .col_child ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer .container .row .col_child ul li {
+    padding: .5rem 0;
+}
+
+#footer .container .row .col_child ul li a,
+#footer .container .row .col_child ul li span {
+    font-size: 1rem;
+    font-family: 'Averta Std Light';
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Mobile Displaying */
+
+@media (max-width:767px) {
+
+    #footer {
+        height: 100%;
+        padding: 15% 0 7.5% 0px;
+    }
+
+    #footer .container .row .col_child {
+        width: initial;
+        flex: 1;
+    }
+
+    #footer .container .row .col_parent:first-child {
+        width: 100%;
+        padding-bottom: 10%;
+    }
+
+    #footer .container .row .col_parent:last-child {
+        width: 100%;
+    }
+
+    #footer .container .row .col_parent a.logo {
+        display: inline-block;
+    }
+
+    #footer .container .row .col_parent .row:nth-child(3) {
+        line-height: 2;
+        padding-bottom: 0;
+    }
+
+    #footer .container .row .col_parent .row:nth-child(3) span {
+        font-size: .6rem;
+    }
+
+    #footer .container .row .col_child:first-child ul {
+        padding-right: 25%;
+    }
+}

@@ -1,0 +1,200 @@
+/* Main Button Settings */
+
+.c_button {
+    font-family: 'Averta Std Semibold';
+    text-transform: uppercase;
+    font-size: .85rem;
+    font-weight: 900;
+    color: #e0960e;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-top: 2.5rem;
+    padding: 20px 38px 22px 40px;
+    display: inline-block;
+    line-height: 1em;
+    position: relative;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.overview .c_button {
+    color: #fff;
+    width: fit-content;
+}
+
+.c_button span {
+    position: relative;
+    z-index: 1;
+}
+
+.c_button:hover span {
+    color: #fff;
+}
+
+.overview .c_button:hover span {
+    color: #e0960e;
+}
+
+.c_button:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #e0960e;
+    border: 2px solid transparent;
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+}
+
+.overview .c_button:before {
+    background: #fff;
+}
+
+.c_button:hover:before {
+    opacity: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.c_button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #e0960e;
+    z-index: 0;
+    opacity: 1;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+}
+
+.overview .c_button:after {
+    border: 2px solid #fff;
+}
+
+.c_button:hover:after {
+    opacity: 0;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+}
+
+/* Colored Button Settings */
+
+.c_button.colored {
+    background:#4c6292;
+    color: #fff;
+    border: none;
+}
+
+.c_button.colored:hover span {
+    color: #4c6292;
+}
+
+.c_button.colored:before {
+    background: #fff;
+    border: 2px solid #4c6292;
+}
+
+.c_button.colored:after {
+    border: 2px solid #4c6292;
+}
+
+/* Footer Social Buttons */
+
+#footer .social_button {
+    font-size: 1rem;
+    color: #fff;
+    padding: 1.25rem 1.5rem;
+    display: inline-block;
+    position: relative;
+    border: 2px solid transparent;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+#footer .social_button:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #fff;
+    border: 2px solid #fff;
+    z-index: 0;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+}
+
+#footer .social_button:hover:before {
+    opacity: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#footer .social_button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #fff;
+    z-index: 0;
+    opacity: 1;
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1), opacity 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+}
+
+#footer .social_button:hover:after {
+    opacity: 0;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+}
+
+#footer .social_button svg {
+    position: relative;
+    z-index: 1;
+}
+
+#footer .social_button:hover svg {
+    color:#141414;
+}
+
+/* Mobile Displaying */
+
+@media (max-width: 767px) {
+    
+    .c_button {
+        font-size: .75rem;
+    }
+
+    #footer .social_button {
+        padding: .85rem 1rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+        
+    .c_button {
+        font-size: .75rem;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1433px) {
+    
+    .c_button {
+        font-size: .75rem;
+    }
+}

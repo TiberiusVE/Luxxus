@@ -1,0 +1,8 @@
+#article_form {
+    padding: 10% 0;
+}
+
+#article_form form .form-group {
+    display: flex;
+    flex-direction: column;
+}

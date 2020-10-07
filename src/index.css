@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Averta Std';
+  src: local('averta_std'), url(/fonts/Averta.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Averta Std Light';
+  src: local('averta_std_light'), url(/fonts/Averta-Light.otf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Averta Std Semibold';
+  src: local('averta_std_semibold'), url(/fonts/Averta-Semibold.otf) format('truetype');
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Averta Std', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

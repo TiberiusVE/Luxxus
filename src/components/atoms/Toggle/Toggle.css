@@ -1,0 +1,56 @@
+@media (min-width:1025px){
+    .menu_toggle{
+        display: none;
+    }
+}
+
+.menu_toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background: transparent;
+    padding: 1.5rem 1.25rem;
+}
+
+button.toggle_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15px;
+    width: 22.5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button.toggle_button:focus {
+    outline: none;
+}
+
+button .toggle_button_line {
+    width: 22.5px;
+    height: 3px;
+    background: #fff;
+    transition: transform 0.3s ease-out;
+}
+
+/* On Toggle */
+
+.menu_toggle.open button .toggle_button_line {
+    transition: transform 0.3s ease-out;
+}
+
+.menu_toggle.open button .toggle_button_line:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.menu_toggle.open button .toggle_button_line:nth-child(2){
+    transform: translateY(-.7rem) rotate(-45deg);
+}
+
+.menu_toggle.open button .toggle_button_line:nth-child(3){
+    display: none;
+}

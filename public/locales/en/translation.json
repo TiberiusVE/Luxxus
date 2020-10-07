@@ -1,0 +1,493 @@
+{
+    "Navbar": {
+        "1": "Product",
+        "2": "Solutions",
+        "3": "About us",
+        "4": "Contact us"
+    },
+    "Home": {
+        "Slider": [
+            {
+                "title": "Is your multicloud secure and scalable?",
+                "content": "Containn's one click, intelligent secure infrastructure building accelerates multicloud delivery",
+                "image": "stock10.jpg"
+            },{
+                "title": "Turnkey DevSecOps pipeline via Containn",
+                "content": "Containn's one click turnkey DevSecOps pipeline speeds up development, provides consistent, secure compliance readiness builds",
+                "image": "stock12.jpg"
+            },{
+                "title": "Are your containers / vms secure?",
+                "content": "Containn's intelligent secure infrastructure builder delivers instant secure containers and vms",
+                "image": "stock11.jpg"
+            },{
+                "title": "Is your security and compliance built in or reactive scanning?",
+                "content": "Shrink down your attack surface - Containn builds in security and compliance controls from the start, with one click.",
+                "image": "stock32.jpg"
+            },{
+                "title": "Covid 19: working remotely",
+                "content": "What is your building infrastructure and protecting data plan?",
+                "image": "stock30.jpg"
+            }
+        ],
+        "Intro": {
+            "title": "Why is Containn different?",
+            "content": "We build secure containers and vms from the start <br /> vs <br /> A reactive scan recommending how to fix your vulnerabilities",
+            "home": true,
+            "button": "See product"
+        },
+        "Features": {
+            "title": "How does Containn help build secure multicloud infrastructure?",
+            "content": "Containn helps organizations prevent breaches by building secure, compliance readiness multicloud infrastructure for containers and vms."
+        },
+        "Flow": [
+            {
+                "title": "Prevent security breaches",
+                "icon": "faShieldCheck"
+            },{
+                "title": "Build secure infrastructure <br /> containers / vms",
+                "icon": "faBoxAlt"
+            },{
+                "title": "Simplify DevSecOps pipeline",
+                "icon": "faFingerprint"
+            },{
+                "title": "Security",
+                "icon": "faLock"
+            },{
+                "title": "Compliance",
+                "icon": "faTasks"
+            },{
+                "title": "Real-time control visibility",
+                "icon": "faAnalytics"
+            }
+        ],
+        "Benefits": {
+            "title": "Why use Containn's intelligent secure infrastructure building?",
+            "content": "Containn reduces operational costs, optimizes resources, streamline operations and speeds up digital transformation.",
+            "list": [{
+                "elements": ["Streamline operations", "Optimize resources", "Lower operational costs", "Increase reliability", "Scalable automation"]
+            },{
+                "elements": ["Digital transformation", "Traceability", "Increase visibility", "Lower security risks", "Achieve compliance"]
+            }]
+        }
+    },
+    "Product": {
+        "Header": {
+            "title": "Containn's product overview"
+        },
+        "Benefits": [
+            {
+                "title": "Find <span class='orange'> intelligent secure multicloud</span> infrastructure building protection",
+                "content": "Unprotected infrastructure (containers / vms) in a multicloud environment create serious security, availability, compliance readiness, best practice and reputation risks. See how Containn's intelligent secure multicloud infrastructure builder delivers protected infrastructure & provides simplified turnkey DevSecOps across complex, scalable, multicloud environments.",
+                "button": "Learn more",
+                "image": "stock24.jpg",
+                "url": "/solutions"
+            },{
+                "title": "Experience real-time compliance readiness control visibility & reporting",
+                "content": "Tired of scanning and another remediation report explaining how to fix your infrastructure? <span class='orange'>Save time with one click, Containn's intelligent secure infrastructure builder</span>, that delivers infrastructure securely and compliance readiness built in from the start! Learn instantly how to start automating infrastructure, optimize resources, save time and inmediate costs.",
+                "button": "Learn more", 
+                "image": "stock25.jpg",
+                "url": "/solutions"
+            },{
+                "title": "Easy set up. Build with <span class='orange'>Containn's intelligent management console</span>, API or command line",
+                "content": "Simple. Easy set up. Frictionless building for developers to deploy secure and compliance readiness containers and vms within minutes.",
+                "button": "Learn more", 
+                "image": "stock27.jpg",
+                "url": "/solutions"
+            }
+        ]
+    },
+    "Solutions": {
+        "Header": {
+            "title": "Solutions by initiative overview"
+        },
+        "Intro": {
+            "title": "Containn immediately solves multiple enterprise initiatives",
+            "content": "Easy set up. Frictionless. High velocity. Delivered."
+        },
+        "Benefits": [
+            {
+                "title": "Intelligent <span class='orange'>secure multicloud infrastructure</span> builder",
+                "content": "Containn's one click, intelligent secure infrastructure building accelerates multicloud delivery at a scalable level. Save your time, let intelligence build.",
+                "button": "See how",
+                "image": "stock8.jpg",
+                "url": "/solutions/intelligent-security-infrastructure-building"
+            },{
+                "title": " Turnkey DevSecOps pipeline <span class='orange'>VIA Containn</span>",
+                "content": "Containn's one click turnkey DevSecOps pipeline accelerates development, provides consistent, secure, compliance readiness containers and vms across build, dev, test, pre-production and production stages.",
+                "button": "Learn more", 
+                "image": "stock16.jpg",
+                "url": "/solutions/devsecops"
+            },{
+                "title": "<span class='orange'>High velocity:</span> secure containers / vms",
+                "content": "Containn's one click intelligent secure multicloud infrastructure builder instantly delivers secure containers and vms within minutes for any cloud provider.",
+                "button": "See the solution", 
+                "image": "stock18.jpg",
+                "url": "/solutions/secure-containers-vms"
+            },{
+                "title": "Compliance readiness real time reporting <span class='orange'>VIA Containn</span>",
+                "content": "Containn's real time compliance readiness is built in from the start and provides controls management visibility across an enterprise. No scanning, no remediation reports to fix, the actual controls built in instantly every time.",
+                "button": "Learn more", 
+                "image": "stock22.jpg",
+                "url": "/solutions/real-time-compliance-readiness-controls"
+            },{
+                "title": "<span class='orange'>Covid 19:</span> instant secure infrastructure to protect data",
+                "content": "Containn protects data instantly by building secure, compliance readiness infrastructure remotely on a scalable level.",
+                "button": "Learn more", 
+                "image": "stock23.jpg",
+                "url": "/solutions/covid-19"
+            }
+        ]
+    },
+    "CloudBuilder": {
+        "Header": {
+            "title": "One click intelligent secure multicloud infrastructure building"
+        },
+        "Intro": {
+            "title": "Why is Containn's intelligent secure building different?",
+            "content": "We build secure containers and vms from the start <br /> vs. <br /> A reactive scan recommending how to fix your vulnerabilities"
+        },
+        "Features": {
+            "title": "Intelligent secure multicloud infrastructure building main features",
+            "icons": [{
+                "title": "One click intelligence",
+                "icon": "faFingerprint"
+            },{
+                "title": "High velocity secure infrastructure building",
+                "icon": "faBoxAlt"
+            },{
+                "title": "Multicloud agnostic",
+                "icon": "faClouds"
+            },{
+                "title": "Containers / Vms",
+                "icon": "faContainerStorage"
+            },{
+                "title": "Security",
+                "icon": "faLockAlt"
+            },{
+                "title": "Compliance readiness control visibility",
+                "icon": "faCheckCircle"
+            },{
+                "title": "Instant rebuilding infrastructure",
+                "icon": "faServer"
+            },{
+                "title": "Multiple infrastructure options",
+                "icon": "faBallotCheck"
+            }]
+        },
+        "Benefits": {
+            "title": "Benefits overview",
+            "content": "Containn solutions provides immediate benefits across an enterprise. These benefits include the following:",
+            "list": [{
+                "elements": ["Scalable", "Optimize resources", "Reduces costs", "Consistent, reliable <br /> infrastructure"]
+            },{
+                "elements": ["Built in security", "Digital transformation", "Frictionless", "Compliance readiness control visibility"]
+            }]
+        }
+    },
+    "DevSecOps": {
+        "Header": {
+            "title": "Turnkey DevSecOps"
+        },
+        "Intro": {
+            "title": "Why is Containn's turnkey DevSecOps different?",
+            "content": "Frictionless. Fast acceleration delivered. Easy set up <br /> vs. <br /> Spending your time learning, designing, setting up, maintaining multiple complex tools with no intelligence"
+        },
+        "Features": {
+            "title": "Turnkey DevSecOps main features",
+            "icons": [{
+                "title": "One click intelligence",
+                "icon": "faFingerprint"
+            },{
+                "title": "High velocity secure infrastructure building",
+                "icon": "faBoxAlt"
+            },{
+                "title": "Multicloud agnostic",
+                "icon": "faClouds"
+            },{
+                "title": "Containers / Vms",
+                "icon": "faContainerStorage"
+            },{
+                "title": "Instant rebuilding infrastructure",
+                "icon": "faServer"
+            },{
+                "title": "Multiple infrastructure options",
+                "icon": "faBallotCheck"
+            },{
+                "title": "Built in security from start",
+                "icon": "faLockAlt"
+            },{
+                "title": "Built in compliance readiness and control visibility",
+                "icon": "faCheckCircle"
+            },{
+                "title": "Intelligent configuration management",
+                "icon": "faCogs"
+            },{
+                "title": "Application environment agnostic",
+                "icon": "faDesktopAlt"
+            },{
+                "title": "Image management",
+                "icon": "faImage"
+            },{
+                "title": "Key management",
+                "icon": "faKey"
+            },{
+                "title": "Network management",
+                "icon": "faNetworkWired"
+            },{
+                "title": "Application management",
+                "icon": "faDesktopAlt"
+            },{
+                "title": "High performance (cpu/memory)",
+                "icon": "faMicrochip"
+            },{
+                "title": "Secrets management",
+                "icon": "faUserSecret"
+            },{
+                "title": "Asset management",
+                "icon": "faListOl"
+            },{
+                "title": "Access control",
+                "icon": "faKeyboard"
+            },{
+                "title": "GRC",
+                "icon": "faLineHeight"
+            },{
+                "title": "SDLC process",
+                "icon": "faDrawCircle"
+            }]
+        },
+        "Benefits": {
+            "title": "Benefits overview",
+            "content": "Containn solutions provides immediate benefits across an enterprise. These benefits include the following:",
+            "list": [{
+                "elements": ["Frictionless", "Intelligent DevSecOps", "Accelerate DevSecOps", "Consistent, reliable <br /> environments"]
+            },{
+                "elements": ["Built in security", "Optimize resources", "Reduces costs", "Compliance readiness control visibility"]
+            }]
+        }
+    },
+    "ContainerVM": {
+        "Header": {
+            "title": "High velocity secure containers / vms"
+        },
+        "Intro": {
+            "title": "Why are Containn's secure containers / vms different?",
+            "content": "We build secure containers and vms from the start <br /> vs. <br /> A reactive scan recommending how to fix your vulnerabilities"
+        },
+        "Features": {
+            "title": "High velocity secure containers / vms main features",
+            "icons": [{
+                "title": "One click intelligence",
+                "icon": "faFingerprint"
+            },{
+                "title": "High velocity secure infrastructure building",
+                "icon": "faBoxAlt"
+            },{
+                "title": "Multicloud agnostic",
+                "icon": "faClouds"
+            },{
+                "title": "Containers / Vms",
+                "icon": "faContainerStorage"
+            },{
+                "title": "Instant rebuilding infrastructure",
+                "icon": "faServer"
+            },{
+                "title": "Multiple infrastructure options",
+                "icon": "faBallotCheck"
+            },{
+                "title": "Built in security from start",
+                "icon": "faLockAlt"
+            },{
+                "title": "Built in compliance readiness and control visibility",
+                "icon": "faCheckCircle"
+            },{
+                "title": "Intelligent configuration management",
+                "icon": "faCogs"
+            },{
+                "title": "Application environment agnostic",
+                "icon": "faDesktopAlt"
+            },{
+                "title": "Image management",
+                "icon": "faImage"
+            },{
+                "title": "Key management",
+                "icon": "faKey"
+            },{
+                "title": "Network management",
+                "icon": "faNetworkWired"
+            },{
+                "title": "Application management",
+                "icon": "faDesktopAlt"
+            },{
+                "title": "High performance (cpu/memory)",
+                "icon": "faMicrochip"
+            },{
+                "title": "Secrets management",
+                "icon": "faUserSecret"
+            },{
+                "title": "Asset management",
+                "icon": "faListOl"
+            },{
+                "title": "Access control",
+                "icon": "faKeyboard"
+            },{
+                "title": "GRC",
+                "icon": "faLineHeight"
+            },{
+                "title": "SDLC process",
+                "icon": "faDrawCircle"
+            }]
+        },
+        "Benefits": {
+            "title": "Benefits overview",
+            "content": "Containn solutions provides immediate benefits across an enterprise. These benefits include the following:",
+            "list": [{
+                "elements": ["High velocity <br /> secure infrastructure <br />", "Built in security", "Enterprisewide <br /> scalability", "Traceability"]
+            },{
+                "elements": ["Consistent, reliable <br /> environments", "Optimize resources", "Compliance readiness control visibility", "Reduces costs"]
+            }]
+        }
+    },
+    "RealTime": {
+        "Header": {
+            "title": "Real time compliance readiness controls"
+        },
+        "Intro": {
+            "title": "Why is Containn's real time compliance readiness different?",
+            "content": "We build compliance readiness and security controls from the start <br /> vs. <br /> A reactive scan telling you how to fix your infrastructure"
+        },
+        "Features": {
+            "title": "Real time compliance readiness main features",
+            "icons": [{
+                "title": "One click intelligence",
+                "icon": "faFingerprint"
+            },{
+                "title": "High velocity secure infrastructure building",
+                "icon": "faBoxAlt"
+            },{
+                "title": "Data protection",
+                "icon": "faShieldAlt"
+            },{
+                "title": "Built in security from start",
+                "icon": "faLockAlt"
+            },{
+                "title": "Built in compliance readiness and control visibility",
+                "icon": "faCheckCircle"
+            },{
+                "title": "Multiple infrastructure options",
+                "icon": "faBallotCheck"
+            },{
+                "title": "Industry best practice",
+                "icon": "faChartBar"
+            },{
+                "title": "Regulations readiness",
+                "icon": "faClipboardList"
+            },{
+                "title": "Compliance readiness",
+                "icon": "faCheckSquare"
+            },{
+                "title": "Instant rebuilding infrastructure",
+                "icon": "faServer"
+            }]
+        },
+        "Benefits": {
+            "title": "Benefits overview",
+            "content": "Containn solutions provides immediate benefits across an enterprise. These benefits include the following:",
+            "list": [{
+                "elements": ["High velocity <br /> secure infrastructure <br /> building", "Built in security", "Consistent, reliable <br /> environments", "Traceability"]
+            },{
+                "elements": ["Reduces audit / <br /> compliance <br /> remediation costs", "Scalable", "Compliance readiness control visibility", "Optimize resources"]
+            }]
+        }
+    },
+    "Covid": {
+        "Header": {
+            "title": "Covid 19: instant secure infrastructure to protect data"
+        },
+        "Intro": {
+            "title": "Why is Containn's Covid 19 instant infrastructure different?",
+            "content": "One click, instant secure infrastructure building to protect data <br /> vs. <br /> By your self, trying to understand, design, build, secure, maintain multiple, complex tools to protect data "
+        },
+        "Features": {
+            "title": "Covid 19: instant secure infrastructure data protection main features",
+            "icons": [{
+                "title": "One click intelligence",
+                "icon": "faFingerprint"
+            },{
+                "title": "High velocity secure infrastructure building",
+                "icon": "faBoxAlt"
+            },{
+                "title": "Data protection",
+                "icon": "faShieldAlt"
+            },{
+                "title": "Built in security from start",
+                "icon": "faLockAlt"
+            },{
+                "title": "Built in compliance readiness and control visibility",
+                "icon": "faCheckCircle"
+            },{
+                "title": "Multiple infrastructure options",
+                "icon": "faBallotCheck"
+            },{
+                "title": "Industry best practice",
+                "icon": "faChartBar"
+            },{
+                "title": "Regulations readiness",
+                "icon": "faClipboardList"
+            },{
+                "title": "Compliance readiness",
+                "icon": "faCheckSquare"
+            },{
+                "title": "Instant rebuilding infrastructure",
+                "icon": "faServer"
+            }]
+        },
+        "Benefits": {
+            "title": "Benefits overview",
+            "content": "Containn solutions provides immediate benefits across an enterprise. These benefits include the following:",
+            "list": [{
+                "elements": ["High velocity <br /> secure infrastructure <br />", "Enterprisewide data protection", "Optimize resources", "Reduces costs"]
+            },{
+                "elements": ["Real time <br /> compliance readiness", "Consistent, reliable <br /> infrastructure", "Scalable", "Built in security"]
+            }]
+        }
+    },
+    "AboutUs": {
+        "Header": {
+            "title": "Our company overview",
+            "about": true
+        },
+        "Intro": {
+            "title": "About us",
+            "content": "Established by experienced executives who have held senior leadership to deep technical roles at McAfee, Microsoft, ABN-AMRO, E&Y and Accenture."
+        }
+    },
+    "Footer": {
+        "1": "Privacy Terms",
+        "2": "© Containn - All Rights Reserved - 2020"
+    }, 
+    "Flow": {
+        "Description": {
+            "title": "Containn simplicity: how does it work?",
+            "content": "Simple. One click. Intelligent secure infrastructure building. Delivered"
+        }, 
+        "Steps": [
+            {
+                "title": "1. Enterprise <br /> turnkey <br /> self service",
+                "icon": "faUserCog",
+                "arrow": true,
+                "containn": false
+            },{
+                "title": "2. Containn's <br /> Intelligence <br /> builder",
+                "icon": "faUserCog",
+                "arrow": true,
+                "containn": true
+            },{
+                "title": "3. Secure / compliance readiness <br /> containers & vms <br /> every time",
+                "icon": "faBoxCheck",
+                "arrow": false,
+                "containn": false
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+#header {
+    background: #141414
+}
+
+#header.home {
+    height: 100vh;
+}
+
+#header.appendix {
+    height: 52.5vh;
+}
+
+#header .container .row {
+    justify-content: space-between;
+}
+
+/* For Appendix Headers */
+
+#header.appendix .container {
+    position: relative;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#product #header.appendix .container .row,
+#solution #header.appendix .container .row {
+    justify-content: center;
+}
+
+#header.appendix .container .row:last-child {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#header.appendix .container .row h1 {
+    color: #fff;
+    padding-left: 10%;
+}
+
+#product #header.appendix .container .row h1,
+#solution #header.appendix .container .row h1 {
+    padding: 0;
+    font-size: 3.5rem;
+}
+
+/* Mobile Styling */
+
+@media (max-width:1024px) {
+
+    #header.appendix .container .row h1 {
+        font-size: 2rem;
+        padding: 0 10%;
+    }
+
+    #product #header.appendix .container .row h1,
+    #solution #header.appendix .container .row h1 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 10%;
+    }
+}
